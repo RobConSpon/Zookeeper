@@ -1,0 +1,6 @@
+p_length = int(input())
+p_width = int(input())
+p_height = int(input())
+print(4 * (p_length + p_width + p_height))
+print(2 * (p_length * p_width + p_width * p_height + p_length * p_height))
+print(p_length * p_width * p_height)
